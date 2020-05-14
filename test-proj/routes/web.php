@@ -15,7 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::get('/test', function () {
     return view('matthijsv');
+});
+
+Route::get('/matthijsH', function() {
+    return view('MatthijsHarren');
 });
