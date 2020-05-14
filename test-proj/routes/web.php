@@ -22,3 +22,5 @@ Route::get('/test', function () {
 Route::get('/matthijsH', function() {
     return view('MatthijsHarren');
 });
+
+Route::get('/babies', 'JobController@baby');
